@@ -1,0 +1,944 @@
+2025-04-11 10:00:34 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:00:34 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 4312 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:00:34 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:00:35 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:00:35 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:00:37 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:00:37 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:00:38 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:00:38 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:00:38 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:00:38 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:00:38 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:00:38 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3159 ms
+2025-04-11 10:00:38 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:00:38 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:00:38 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:00:38 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:00:38 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:00:38 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:00:38 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:00:38 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:00:38 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:00:39 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:00:40 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:00:40 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:00:41 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:00:41 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:00:41 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:00:41 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:00:42 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:00:42 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:00:42 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:00:42 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:00:42 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 8.38 seconds (process running for 9.329)
+2025-04-11 10:01:21 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 10:01:21 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 10:01:21 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 10:01:23 - INFO - o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1759 ms
+2025-04-11 10:22:17 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 10:22:17 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:22:17 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:22:17 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:22:17 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:22:17 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:22:17 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:22:17 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:22:17 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:44:14 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:44:14 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 18732 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:44:14 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:44:14 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:44:14 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:44:16 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:44:16 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:44:17 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:44:17 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:44:17 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:44:17 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:44:17 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:44:17 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2482 ms
+2025-04-11 10:44:17 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:44:17 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:44:17 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:44:17 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:44:17 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:44:18 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:44:18 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:44:18 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:44:18 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:44:18 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:44:19 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:44:19 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:44:20 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:44:20 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:44:20 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:44:20 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:44:21 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:44:21 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:44:21 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:44:21 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:44:21 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 6.88 seconds (process running for 7.576)
+2025-04-11 10:45:14 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:45:14 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 10348 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:45:14 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:45:14 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:45:14 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:45:15 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:45:15 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:45:15 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:45:15 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:45:15 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:45:15 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:45:15 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:45:15 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1342 ms
+2025-04-11 10:45:15 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:45:15 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:45:15 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:45:16 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:45:16 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:45:16 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:45:16 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:45:16 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:45:16 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:45:16 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:45:17 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:45:17 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:45:18 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:45:18 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:45:18 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:45:18 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:45:18 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:45:18 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-04-11 10:45:18 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:45:18 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-11 10:45:18 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:45:18 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:45:18 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:45:18 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:45:18 - INFO - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-11 10:45:18 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8989 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8989 or configure this application to listen on another port.
+
+2025-04-11 10:45:49 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2025-04-11 10:45:49 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:45:49 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:45:50 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:45:50 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:45:50 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:45:50 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:45:50 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:45:50 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:45:50 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 18732 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:45:50 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:45:50 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:45:50 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:45:50 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:45:50 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:45:50 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:45:50 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:45:50 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:45:50 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 300 ms
+2025-04-11 10:45:50 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:45:50 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:45:50 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:45:50 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-04-11 10:45:50 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:45:50 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-04-11 10:45:50 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:45:50 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:45:50 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:45:50 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:45:50 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:45:51 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:45:51 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:45:51 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:45:51 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:45:51 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:45:51 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:45:51 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:45:51 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 1.098 seconds (process running for 97.646)
+2025-04-11 10:45:51 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-11 10:48:07 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-11 10:48:07 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:48:07 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:07 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:48:07 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:07 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:48:07 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:48:07 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-04-11 10:48:07 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-04-11 10:48:07 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 18732 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:48:07 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:48:07 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:48:07 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:48:07 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:48:07 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:07 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:48:07 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:48:07 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:48:07 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 302 ms
+2025-04-11 10:48:07 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:48:07 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:48:07 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:48:07 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-04-11 10:48:07 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:48:07 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-04-11 10:48:07 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:48:07 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:48:07 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:48:07 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:48:08 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:48:08 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:48:08 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:48:08 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:48:08 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:48:08 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:48:08 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:08 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:48:08 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 0.998 seconds (process running for 234.882)
+2025-04-11 10:48:15 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 10:48:15 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 10:48:15 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 10:48:16 - INFO - o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 490 ms
+2025-04-11 10:48:26 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 10:48:26 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:48:26 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:26 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:48:26 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:26 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:48:26 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:48:26 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-04-11 10:48:26 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-04-11 10:48:28 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:48:28 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 23004 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:48:28 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:48:28 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:48:28 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:48:29 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:48:29 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:48:29 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:48:29 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:29 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:48:29 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:48:29 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:48:29 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1248 ms
+2025-04-11 10:48:29 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:48:29 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:48:29 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:48:29 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:48:29 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:48:30 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:48:30 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:48:30 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:48:30 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:48:30 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:48:30 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:48:31 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:48:32 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:48:32 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:48:32 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:48:32 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:48:32 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:48:32 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:48:32 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:48:32 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:48:32 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 4.867 seconds (process running for 5.464)
+2025-04-11 10:48:46 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 10:48:46 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 10:48:46 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-11 10:48:46 - INFO - o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 504 ms
+2025-04-11 10:49:20 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:49:21 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 22708 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:49:21 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:49:21 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:49:21 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:49:22 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:49:22 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:49:23 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:49:23 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:49:23 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:49:23 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:49:23 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:49:23 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2321 ms
+2025-04-11 10:49:23 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:49:23 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:49:23 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:49:23 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:49:23 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:49:23 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:49:23 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:49:24 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:49:24 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:49:24 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:49:25 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:49:25 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:49:26 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:49:26 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:49:26 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:49:26 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:49:27 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:49:27 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-04-11 10:49:27 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:49:27 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-11 10:49:27 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:49:27 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:49:27 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:49:27 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:49:27 - INFO - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-11 10:49:27 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8989 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8989 or configure this application to listen on another port.
+
+2025-04-11 10:52:00 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:52:00 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 21136 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:52:00 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:52:00 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:52:00 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:52:01 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:52:01 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:52:01 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:52:01 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:52:01 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:52:01 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:52:01 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:52:01 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1533 ms
+2025-04-11 10:52:01 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:52:01 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:52:01 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:52:02 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:52:02 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:52:02 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:52:02 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:52:02 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:52:02 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:52:02 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:52:03 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:52:03 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:52:04 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:52:04 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:52:04 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:52:04 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:52:04 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:52:04 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-04-11 10:52:04 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:52:04 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-11 10:52:04 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:52:04 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:52:04 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:52:04 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:52:04 - INFO - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-11 10:52:04 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8989 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8989 or configure this application to listen on another port.
+
+2025-04-11 10:52:09 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 10:52:09 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:52:09 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:52:09 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:52:09 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:52:09 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:52:09 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:52:09 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:52:09 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:52:11 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:52:11 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 19008 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:52:11 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:52:11 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:52:11 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:52:13 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:52:13 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:52:13 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:52:13 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:52:13 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:52:13 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:52:14 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:52:14 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2162 ms
+2025-04-11 10:52:14 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:52:14 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:52:14 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:52:14 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:52:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:52:14 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:52:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:52:14 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:52:14 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:52:15 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:52:15 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:52:16 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:52:16 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:52:17 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:52:17 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:52:17 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:52:17 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:52:17 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:52:17 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:52:17 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:52:17 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 6.238 seconds (process running for 6.792)
+2025-04-11 10:52:56 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 10:52:56 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 10:52:56 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-11 10:52:58 - INFO - o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1717 ms
+2025-04-11 10:55:16 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-11 10:55:16 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:55:16 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:55:16 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:55:16 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:55:16 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:55:16 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:55:16 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:55:16 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:55:16 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 19008 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:55:16 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:55:16 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:55:16 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:55:16 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:55:16 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:55:16 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:55:16 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:55:16 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:55:16 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 284 ms
+2025-04-11 10:55:16 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:55:16 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:55:16 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:55:16 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-04-11 10:55:16 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:55:16 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-04-11 10:55:16 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:55:16 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:55:16 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:55:16 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:55:17 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:55:17 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:55:17 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:55:17 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:55:17 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:55:17 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:55:17 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:55:17 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:55:17 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 1.083 seconds (process running for 186.627)
+2025-04-11 10:56:14 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-11 10:56:14 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:56:14 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:56:14 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:56:14 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:56:14 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:56:14 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:56:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-04-11 10:56:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-04-11 10:56:14 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 19008 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:56:14 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:56:14 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:56:14 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:56:14 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:56:14 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:56:14 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:56:14 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:56:14 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:56:14 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 267 ms
+2025-04-11 10:56:14 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:56:14 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:56:14 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:56:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-04-11 10:56:14 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:56:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-04-11 10:56:14 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:56:14 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:56:14 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:56:14 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:56:15 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:56:15 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:56:15 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:56:15 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:56:15 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:56:15 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:56:15 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:56:15 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:56:15 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 0.947 seconds (process running for 244.484)
+2025-04-11 10:56:15 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-11 10:57:49 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-11 10:57:49 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:57:49 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:57:49 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:57:49 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:57:49 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:57:49 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:57:49 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-04-11 10:57:49 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-04-11 10:57:49 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 19008 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:57:49 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:57:50 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:57:50 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:57:50 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:57:50 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:57:50 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:57:50 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:57:50 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:57:50 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1074 ms
+2025-04-11 10:57:50 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:57:50 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:57:50 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:57:50 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-04-11 10:57:50 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:57:50 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-04-11 10:57:50 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:57:50 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:57:50 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:57:50 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:57:51 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:57:51 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:57:51 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:57:51 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:57:51 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:57:51 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:57:51 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:57:51 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:57:51 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 1.719 seconds (process running for 340.574)
+2025-04-11 10:57:51 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-11 10:58:33 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:58:33 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 15312 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:58:33 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:58:33 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:58:33 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:58:33 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:58:34 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:58:34 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:58:34 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:58:34 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:58:34 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:58:34 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:58:34 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1347 ms
+2025-04-11 10:58:34 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:58:34 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:58:34 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:58:34 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:58:34 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:58:35 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:58:35 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:58:35 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:58:35 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:58:35 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:58:35 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:58:36 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:58:37 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:58:37 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:58:37 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:58:37 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:58:37 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:58:37 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-04-11 10:58:37 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:58:37 - WARN - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-11 10:58:37 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:58:37 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:58:37 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:58:37 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:58:37 - INFO - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-11 10:58:37 - ERROR - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8989 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8989 or configure this application to listen on another port.
+
+2025-04-11 10:58:42 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 10:58:42 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:58:42 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:58:42 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:58:42 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:58:42 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:58:42 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:58:42 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-04-11 10:58:42 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-04-11 10:58:44 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:58:44 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 17568 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:58:44 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:58:44 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:58:44 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:58:45 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:58:45 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:58:46 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:58:46 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:58:46 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:58:46 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:58:46 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:58:46 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1280 ms
+2025-04-11 10:58:46 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:58:46 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:58:46 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:58:46 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:58:46 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:58:46 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:58:46 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:58:46 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:58:46 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:58:47 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:58:47 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:58:47 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:58:48 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:58:48 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:58:48 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:58:48 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:58:49 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:58:49 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:58:49 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:58:49 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:58:49 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 5.014 seconds (process running for 5.576)
+2025-04-11 10:59:33 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 10:59:33 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:59:33 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:59:33 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:59:33 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:59:33 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:59:33 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 10:59:33 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 10:59:33 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 10:59:35 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:59:35 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 15796 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 10:59:35 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 10:59:35 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 10:59:35 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 10:59:36 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 10:59:36 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 10 JPA repository interfaces.
+2025-04-11 10:59:36 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 10:59:36 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:59:36 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:59:36 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:59:36 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:59:36 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1203 ms
+2025-04-11 10:59:37 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 10:59:37 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 10:59:37 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 10:59:37 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 10:59:37 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 10:59:37 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 10:59:37 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 10:59:37 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 10:59:37 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 10:59:38 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 10:59:38 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 10:59:38 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 10:59:39 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 10:59:39 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 10:59:39 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 10:59:39 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 10:59:39 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 10:59:39 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 10:59:39 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 10:59:39 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 10:59:39 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 4.59 seconds (process running for 5.106)
+2025-04-11 11:02:45 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 11:02:45 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 11:02:45 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 11:02:45 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 11:02:45 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 11:02:45 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 11:02:45 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 11:02:45 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 11:02:45 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 19:54:32 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 19:54:32 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 792 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 19:54:32 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 19:54:32 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 19:54:32 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 19:54:33 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 19:54:33 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 10 JPA repository interfaces.
+2025-04-11 19:54:34 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 19:54:34 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:54:34 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 19:54:34 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 19:54:34 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 19:54:34 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1706 ms
+2025-04-11 19:54:34 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 19:54:34 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 19:54:34 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 19:54:34 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 19:54:34 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 19:54:35 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 19:54:35 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 19:54:35 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 19:54:35 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 19:54:35 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 19:54:36 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 19:54:36 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 19:54:37 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 19:54:37 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 19:54:37 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 19:54:37 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 19:54:37 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 19:54:38 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 19:54:38 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:54:38 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 19:54:38 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 6.14 seconds (process running for 6.678)
+2025-04-11 19:55:07 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 19:55:07 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 19:55:07 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:55:07 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 19:55:07 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:55:07 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 19:55:07 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 19:55:07 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 19:55:07 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 19:55:12 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 19:55:12 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 16056 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 19:55:12 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 19:55:12 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 19:55:12 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 19:55:13 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 19:55:13 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 10 JPA repository interfaces.
+2025-04-11 19:55:14 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 19:55:14 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:55:14 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 19:55:14 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 19:55:14 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 19:55:14 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1431 ms
+2025-04-11 19:55:14 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 19:55:14 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 19:55:14 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 19:55:14 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 19:55:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 19:55:14 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 19:55:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 19:55:14 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 19:55:14 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 19:55:15 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 19:55:15 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 19:55:16 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 19:55:16 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 19:55:17 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 19:55:17 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 19:55:17 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 19:55:17 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 19:55:17 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 19:55:17 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:55:17 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 19:55:17 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 5.257 seconds (process running for 5.91)
+2025-04-11 19:56:49 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 19:56:49 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 19:56:49 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:56:49 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 19:56:49 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 19:56:49 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 19:56:49 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 19:56:49 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 19:56:49 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-11 20:00:32 - INFO - o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 20:00:32 - INFO - c.java.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 6456 (D:\STS\sts-workspace-major project\Hospital--Management\target\classes started by jagan in D:\STS\sts-workspace-major project\Hospital--Management)
+2025-04-11 20:00:32 - INFO - c.java.HospitalManagementApplication - The following 1 profile is active: "dev"
+2025-04-11 20:00:32 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-11 20:00:32 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-11 20:00:33 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 20:00:33 - INFO - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 10 JPA repository interfaces.
+2025-04-11 20:00:33 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8989 (http)
+2025-04-11 20:00:33 - INFO - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8989"]
+2025-04-11 20:00:33 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 20:00:33 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 20:00:33 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-04-11 20:00:33 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1540 ms
+2025-04-11 20:00:33 - INFO - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 20:00:33 - INFO - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-11 20:00:34 - INFO - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-11 20:00:34 - INFO - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 20:00:34 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-11 20:00:34 - INFO - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=ROOT
+2025-04-11 20:00:34 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-11 20:00:34 - WARN - org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-11 20:00:34 - INFO - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 20:00:35 - INFO - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 20:00:35 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 20:00:35 - INFO - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-11 20:00:36 - INFO - c.java.service.impl.StaffServiceImpl - Admin staff created successfully!
+2025-04-11 20:00:36 - WARN - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-11 20:00:36 - INFO - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-11 20:00:36 - WARN - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-11 20:00:37 - INFO - o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-04-11 20:00:37 - INFO - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-11 20:00:37 - INFO - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8989"]
+2025-04-11 20:00:37 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8989 (http) with context path '/api/v1'
+2025-04-11 20:00:37 - INFO - c.java.HospitalManagementApplication - Started HospitalManagementApplication in 5.481 seconds (process running for 6.158)
+2025-04-11 20:00:52 - INFO - o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 20:00:52 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 20:00:52 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 20:00:55 - INFO - o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1989 ms
+2025-04-11 20:22:08 - WARN - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m4s476ms594µs800ns).
+2025-04-11 20:37:06 - WARN - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m27s474ms187µs800ns).
+2025-04-11 22:11:14 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-11 22:11:14 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 22:11:14 - INFO - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8989"]
+2025-04-11 22:11:14 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 22:11:14 - INFO - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8989"]
+2025-04-11 22:11:14 - INFO - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 22:11:14 - WARN - o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-11 22:11:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-11 22:11:14 - INFO - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: Jaswanth@0406
+    url: jdbc:mysql://localhost:3306/hospital-management
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

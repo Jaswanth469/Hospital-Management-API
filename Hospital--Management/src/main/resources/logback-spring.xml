@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Define Log File Location -->
+    <property name="LOG_PATH" value="logs/" />
+    <property name="LOG_FILE" value="${LOG_PATH}hospital-app.log" />
+
+    <!-- Console Logging (Optional, can be removed) -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %level - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Logging -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %level - %logger{36} - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}hospital-app-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Set Root Logger -->
+    <root level="INFO">
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>
