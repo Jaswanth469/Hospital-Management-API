@@ -13,7 +13,7 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("VIJAYA KUMARI-HOSPITALS")
+                .info(new Info().title("GRACE VALLEY-HOSPITAL")
                         .version("1.0")
                         .description("API documentation for Hospital Management System"))
                 .addSecurityItem(new SecurityRequirement().addList("BearerAuth"))
